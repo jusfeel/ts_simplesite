@@ -5,7 +5,7 @@ class Greeter {
         this.greeting = message;
     }
     greet() {
-        return "Hello, " + this.greeting;
+        return "Heallo, " + this.greeting;
     }
 }
 
@@ -15,6 +15,6 @@ let button = document.createElement('button');
 button.textContent = "Say Hello";
 button.onclick = function() {
     alert(greeter.greet());
+    //
 }
-
 document.body.appendChild(button);
