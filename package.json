@@ -5,11 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsc --watch && nodemon dist",
     "start": "lite-server"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "lite-server": "^2.3.0"
+  },
+  "dependencies": {
+    "nodemon": "^1.12.1"
   }
 }
